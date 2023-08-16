@@ -6,16 +6,12 @@
 
 # teste das classes
 
-# importar as classes (versão 1)
-# from endereco import Endereco
-# from pessoa import Pessoa
-
 # importar as classes (versão 2)
 from pessoa import Pessoa
 
+
 # criar objetos
 p1 = Pessoa("Davi", "12345678901")
-# e1 = Endereco("rua das casa", "Cajazeiras")
 
 p1.rua = "rua das casas"
 p1.cidade = "Cajazeiras"
